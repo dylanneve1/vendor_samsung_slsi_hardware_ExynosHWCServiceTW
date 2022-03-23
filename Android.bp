@@ -7,4 +7,19 @@ cc_binary {
 	relative_install_path: "hw",
 	cflags: [
 	],
+	shared_libs: [
+		"libutils",
+		"libcutils",
+		"libhidlbase",
+		"libhidltransport",
+		"liblog",
+		"libbinder",
+		"libsync",
+		"libhardware",
+		"libion",
+		"libc++",
+		"libc",
+		"libm",
+		"libdl",
+	],
 }
